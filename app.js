@@ -7,7 +7,11 @@ const app = express();
 
 // Conexion a DB
 import mongoose from 'mongoose';
-const uri = 'mongodb://localhost:27017/menv';
+// const uri = 'mongodb://localhost:27017/menv';
+
+// Conexion DB en la nube
+const uri = 'mongodb+srv://mevn:wB6*gdyK*KS&ZF9@cluster0-qarre.mongodb.net/mevnPrueba?retryWrites=true&w=majority';
+
 const options = {
     useNewUrlParser: true,
     useCreateIndex: true,
